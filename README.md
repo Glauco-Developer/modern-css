@@ -10,7 +10,7 @@ This README provides insights into several cutting-edge CSS properties and rules
 4. [Layering Styles (@layer)](#layering-styles-@layer)
 5. [CSS Variables](#css-variables)
 6. [Mix-Blend-Mode](#mix-blend-mode)
-6. [Preloading CSS with Reliability](#Preloading CSS with Reliability)
+6. [Preloading-CSS-with-Reliability](#Preloading CSS with Reliability)
 
 ## Aspect Ratio
 
