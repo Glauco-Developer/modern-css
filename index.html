@@ -4,7 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Inline critical CSS for fast rendering of the visible part of the page -->
+    <style>
+        /* Critical styles here */
+    </style>
+
+    <!-- Preloading the main CSS and asynchronous loading -->
+    <link rel="preload" href="css/style.css" as="style" onload="this.onload=null; this.rel='stylesheet';">
+    <noscript><link rel="stylesheet" href="css/style.css"></noscript>
+
 </head>
 <body>
     <div class="profile-card">
