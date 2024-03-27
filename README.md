@@ -54,10 +54,6 @@ To preload a CSS file, you can use the `<link>` element with `rel="preload"` and
 
 The `onload` event handler plays a crucial role in this technique. Once the CSS file is preloaded, you need to apply it to the document. This is done by changing the `rel` attribute from `"preload"` to `"stylesheet"`. However, managing the `onload` event properly is crucial to avoid potential issues:
 
-```html
-<link rel="preload" href="css/style.css" as="style" onload="this.onload=null; this.rel='stylesheet';">
-
-
 ---
 
 These modern CSS features collectively enhance the flexibility, efficiency, and aesthetic of web projects. Incorporating them into your workflow can lead to more engaging user interfaces, streamlined design processes, and overall better web experiences.
